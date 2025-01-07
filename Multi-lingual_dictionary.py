@@ -7,7 +7,7 @@ window.title("Multi-lingual_Dictionary")
 window.configure(bg="black")
 
 
-word_entry = Entry(window, width=30, font=("", 12))
+word_entry = Entry(window, width=30, font=("Times New Roman ", 12))
 word_entry.configure(bg="white")
 word_entry.pack()
 
