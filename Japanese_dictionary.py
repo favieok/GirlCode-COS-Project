@@ -50,14 +50,52 @@ japanese_dictionary = {'you': 'Anata' ,
                        }
 
 
+hebrew_dictionary={
+    "hello":"shalom",
+    "book":"sefer",
+    "food":"ochel",
+    "water":"mayim",
+    "chair":"khise",
+    "yes":"ken",
+    "no":"lo",
+    "thank you": "toda",
+    "please":"bevakasha",
+    "sorry":"slicha",
+    "house": "bayit",
+    "friend":"chaver",
+    "day":"yom",
+    "night":"laila",
+    "money":"kesef",
+    "heart":"lev",
+    "good":"tov",
+    "bad":"ra",
+    "beautiful":"yav",
+    "head": "rosh",
+    "love":"ahavah",
+    "big":"gadol",
+    "small":"katan",
+    "world":"olam",
+    "fire":"esh",
+    "sea":"yam",
+    "light":"ohr",
+    "table":"shulchan",
+    "clothes":"begadim",
+    "great":"sababa"
+}
+
+
+
+
+
+
 
 def search_word(word):
     if word in japanese_dictionary:
+        result.set("Not found")
         result.set(japanese_dictionary[word])
         print(japanese_dictionary[word])
 
     else:
-        result.set("Not found")
         print("Not Found.")
 
 
@@ -66,14 +104,6 @@ def search_word(word):
 search_btn = Button(window, text='Search', command=lambda:search_word(entry.get()))
 search_btn.pack()
 window.mainloop()
-
-
-
-
-
-
-
-
 
 
 
