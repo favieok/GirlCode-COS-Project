@@ -50,14 +50,6 @@ japanese_dictionary = {'you': 'Anata' ,
                        }
 
 
-
-
-
-
-
-
-
-
 def search_word(word):
     if word in japanese_dictionary:
         result.set("Not found")
