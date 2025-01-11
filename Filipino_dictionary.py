@@ -63,7 +63,7 @@ def search_word(word):
         result.set("Not found")
         print("not found")
 
-        search_btn = Button(window, text='search', command=lambda: search_word(entry()))
+        search_btn = Button(window, text='search', command=lambda: search_word(entry.get()))
         search_btn.pack()
         window.mainloop()
 
