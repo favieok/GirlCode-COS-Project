@@ -6,7 +6,7 @@ from tkinter import Tk, Entry, Button, Label, StringVar
 window = Tk()
 window.geometry("800x400")
 
-window.title("French Dictionary.") 
+window.title("Filipino Dictionary.") 
 
 
 
@@ -20,7 +20,7 @@ result_label=Label(window,textvariable=result)
 
 
 
-french_dictionary = {'aller':'go',
+filipino_dictionary = {'aller':'go',
                      'avoir':'have',
                      'elle':'she',
                      'saviour':'know',                    
@@ -62,9 +62,9 @@ french_dictionary = {'aller':'go',
                      'retrouver':'meet',}
 
 def search_word(word):
-    if word in french_dictionary:
-        result.set(french_dictionary[word])
-        print(french_dictionary[word])
+    if word in filipino_dictionary:
+        result.set(filipino_dictionary[word])
+        print(filipino_dictionary[word])
         
     else:
         result.set("Not found")
