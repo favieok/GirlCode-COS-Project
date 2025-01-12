@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee65ce5-635c-4e24-a39e-20262dc4499b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="6ee65ce5-635c-4e24-a39e-20262dc4499b" name="Changes" comment="Second commit">
       <change beforePath="$PROJECT_DIR$/Filipino_dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Filipino_dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/French_Dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/French_dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Japanese_dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Japanese_dictionary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +43,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Project_COS.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ME/PycharmProjects/COS_Project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Project_COS.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ME/PycharmProjects/COS_Project"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Project_COS" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Project1" />
@@ -98,6 +92,19 @@
       <option name="presentableId" value="Default" />
       <updated>1734741035139</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second commit">
+      <option name="closed" value="true" />
+      <created>1736657904020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736657904020</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
 </project>
