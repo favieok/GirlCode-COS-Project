@@ -53,7 +53,6 @@ filipino_dictionary = {'go': 'pumunta ka',
                        'meet': 'makipagkita',
                        'land': 'lupa', }
 
-
 def search_word(word):
     if word in filipino_dictionary:
         result.set(filipino_dictionary[word])
@@ -63,7 +62,6 @@ def search_word(word):
         result.set("Not found")
         print("not found")
 
-        search_btn = Button(window, text='search', command=lambda: search_word(entry.get()))
         search_btn.pack()
         window.mainloop()
 
