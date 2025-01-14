@@ -74,7 +74,7 @@ french_dictionary = {'good morning': 'bonne matinée',
                      'teacher': 'professeure',
                      'bless you': 'á dieu',
                      'excuse me': 'excusez-moi',
-                     'please': 'sil vous plaît',
+                     'please': 's\'il vous plaît',
                      'thank you': 'merci'}
 
 hebrew_dictionary={
