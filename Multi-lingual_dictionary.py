@@ -13,8 +13,8 @@ word_entry.pack()
 word_result = StringVar()
 word_result_label = Label(window,textvariable=word_result)
 word_result_label.pack()
-#MORKAH GRACE
 
+#MORKAH GRACE
 filipino_dictionary = {'go':'pumunta ka',
                      'have':'mayroon',
                      'she':'siya',
@@ -78,8 +78,8 @@ french_dictionary = {'good morning': 'bonne matinée',
                      'excuse me': 'excusez-moi',
                      'please': 's\'il vous plaît',
                      'thank you': 'merci'}
-#AWUHE TREASURE 
 
+#AWUHE TREASURE 
 hebrew_dictionary={
     "hello":"shalom",
     "book":"sefer",
@@ -111,8 +111,8 @@ hebrew_dictionary={
     "table":"shulchan",
     "clothes":"begadim",
     "great":"sababa"}
-#AJUFOH DASHA
 
+#AJUFOH DASHA
 japanese_dictionary = {'you': 'Anata' ,
                        'thank you': 'Arigato' ,
                        'okay': 'Daijoubu' ,
@@ -142,8 +142,8 @@ japanese_dictionary = {'you': 'Anata' ,
                        'I': 'Watashi' ,
                        'me': 'Watashi' ,
                        'vegetable': 'Yasai'}
-#OKECHUKWU ANGEL
 
+#OKECHUKWU ANGEL
 korean_dictionary = {
     'hello': 'annyeong',
     'come': 'oda',
