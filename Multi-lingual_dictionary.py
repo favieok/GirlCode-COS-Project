@@ -57,6 +57,7 @@ filipino_dictionary = {'go':'pumunta ka',
                      'meet':'makipagkita',
                       'land':'lupa'}
 OKEREKE FAVOUR
+
 french_dictionary = {'good morning': 'bonne matinée',
                      'good afternoon': 'bon après-midi',
                      'good evening': 'bonsoir',
@@ -142,6 +143,7 @@ japanese_dictionary = {'you': 'Anata' ,
                        'me': 'Watashi' ,
                        'vegetable': 'Yasai'}
 OKECHUKWU ANGEL
+
 korean_dictionary = {
     'hello': 'annyeong',
     'come': 'oda',
