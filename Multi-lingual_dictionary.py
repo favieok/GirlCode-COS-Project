@@ -56,8 +56,8 @@ filipino_dictionary = {'go':'pumunta ka',
                      'good morning':'magandang umaga',
                      'meet':'makipagkita',
                       'land':'lupa'}
-#OKEREKE FAVOUR
 
+#OKEREKE FAVOUR
 french_dictionary = {'good morning': 'bonne matinée',
                      'good afternoon': 'bon après-midi',
                      'good evening': 'bonsoir',
