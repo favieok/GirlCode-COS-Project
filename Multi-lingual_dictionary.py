@@ -4,12 +4,7 @@ from tkinter import Tk, Entry, Button, Label, StringVar
 window = Tk()
 window.geometry("900x550")
 window.title("Multi-lingual_Dictionary")
-window.configure(bg="white")
-
-head = Label(window, text="Welcome to the Foreign Multilingual Dictionary", font=("Times New Roman", 20), bg ="white", pady=20)
-sub_head = Label(window, text="Select the language you would like to translate to below", font=("Times New Roman", 15),bg ="white", pady=20)
-head.pack()
-sub_head.pack()
+window.configure(bg="black")
 
 
 word_entry = Entry(window, width=30, font=("Times New Roman ", 12))
@@ -108,75 +103,10 @@ french_dictionary = {'good morning': 'bonne matinée',
                      'thank you': 'merci'}
 
 
-filipino_dictionary = {'go': 'pumunta ka',
-                       'have': 'mayroon',
-                       'she': 'siya',
-                       'know': 'alam',
-                       'well': 'mabuti',
-                       'we': 'tayo',
-                       'but': 'ngnuit',
-                       'can': 'pwede',
-                       'want': 'gusto',
-                       'say': 'sabihin',
-                       'with': 'kasama',
-                       'black': 'itim',
-                       'blue': 'asul',
-                       'small': 'maliit',
-                       'give': 'magbigay',
-                       'arrive': 'dumating',
-                       'never': 'kailanman',
-                       'water': 'tubig',
-                       'blood': 'dugo',
-                       'full': 'puno na',
-                       'month': 'buwan',
-                       'against': 'iaban sa',
-                       'under': 'sa ilalim',
-                       'during': 'habang',
-                       'better': 'mas mabuti',
-                       'whore': 'ang',
-                       'write': 'magsulat',
-                       'upset': 'nagagalit',
-                       'stay': 'manatili',
-                       'serve': 'maglingkod',
-                       'some': 'ilang',
-                       'gate': 'labasan',
-                       'today': 'ngayon',
-                       'history': 'kasaysayn',
-                       'drink': 'inumin',
-                       'white': 'puti',
-                       'speak': 'magsalita',
-                       'thank you': 'salamat po',
-                       'good morning': 'magandang umaga',
-                       'meet': 'makipagkita',
-                       'land': 'lupa', }
-
-
-korean_dictionary = {
-    'hello': 'annyeong',
-    'come': 'oda',
-    'go': 'gada',
-    'stay': 'meomuleuda',
-    'here': 'yeogi',
-    'near': 'gakkaun',
-    'far': 'meolli',
-    'happy': 'haengboghada',
-    'sad': 'saelpeun',
-    'filled': 'chaeuneun',
-    'hungry': 'baegopeun',
-    'money': 'don',
-    'please': 'jebal',
-    'name': 'ileum',
-    'food': 'eumsig',
-    'sorry': 'mianhaeyo',
-    'love': 'salang',
-    'what': 'mwo?',
-    'thank you': 'gomabseubnida',
-    'congratulations': 'chughahae'}
-
 
 def search_japanese_word(word):
     if word in japanese_dictionary:
-        word_result.set("Not Found")
+        word_result.set("Not found")
         word_result.set(japanese_dictionary[word])
         print(japanese_dictionary[word])
 
@@ -186,7 +116,7 @@ def search_japanese_word(word):
 
 def search_hebrew_word(word):
     if word in hebrew_dictionary:
-        word_result.set("Not Found")
+        word_result.set("Not found")
         word_result.set(hebrew_dictionary[word])
         print(hebrew_dictionary[word])
 
@@ -195,54 +125,29 @@ def search_hebrew_word(word):
 
 def search_french_word(word):
     if word in french_dictionary:
-        word_result.set("Not Found")
+        word_result.set("Not found")
         word_result.set(french_dictionary[word])
         print(french_dictionary[word])
 
     else:
         print("Not Found.")
 
-def search_filipino_word(word):
-    if word in filipino_dictionary:
-        word_result.set("Not Found")
-        word_result.set(filipino_dictionary[word])
-        print(french_dictionary[word])
-
-    else:
-        print("Not Found.")
-
-
-def search_korean_word(word):
-    if word in korean_dictionary:
-        word_result.set("Not found")
-        word_result.set(korean_dictionary[word])
-        print(korean_dictionary[word])
-
-    else:
-        print("Not Found.")
-
-
-filipino_search = Button(window, text='Filipino',width="20", command=lambda:search_filipino_word(word_entry.get()))
-filipino_search.configure(bg="purple")
-filipino_search.pack()
-
 
 french_search = Button(window, text='French',width="20", command=lambda:search_french_word(word_entry.get()))
 french_search.configure(bg="purple")
+
 french_search.pack()
+
 
 hebrew_search = Button(window, text='Hebrew',width="20", command=lambda:search_hebrew_word(word_entry.get()))
 hebrew_search.configure(bg="purple")
 hebrew_search.pack()
 
+
+
 japanese_search = Button(window, text='Japanese',width="20", command=lambda:search_japanese_word(word_entry.get()))
 japanese_search.configure(bg="purple")
 japanese_search.pack()
-
-korean_search = Button(window, text='Korean',width="20", command=lambda:search_korean_word(word_entry.get()))
-korean_search.configure(bg="purple")
-korean_search.pack()
-
 window.mainloop()
 
 
