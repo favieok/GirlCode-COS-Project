@@ -4,7 +4,12 @@ from tkinter import Tk, Entry, Button, Label, StringVar
 window = Tk()
 window.geometry("900x550")
 window.title("Multi-lingual_Dictionary")
-window.configure(bg="black")
+window.configure(bg="white")
+
+head = Label(window, text="Welcome to the Foreign Multi-lingual Dictionary... ", font=("Times New Roman", 20),bg="White", pady=20)
+sub_head = Label(window, text="Enter a word and select what language you would like to translate to..", font=("Times New Roman", 15),bg="White", pady=20)
+head.pack()
+sub_head.pack()
 
 
 word_entry = Entry(window, width=30, font=("Times New Roman ", 12))
