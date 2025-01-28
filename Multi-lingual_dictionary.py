@@ -215,23 +215,25 @@ def search_filipino_word(word):
         print("Not found")
 
 
-french_search = Button(window, text='French',width="15", command=lambda:search_french_word(word_entry.get()))
+
+
+french_search = Button(window, text='French', width="15",pady="10",borderwidth=4,highlightthickness=4, command=lambda:search_french_word(word_entry.get()))
 french_search.configure(bg="purple")
 french_search.pack()
 
-hebrew_search = Button(window, text='Hebrew',width="15", command=lambda:search_hebrew_word(word_entry.get()))
+hebrew_search = Button(window, text='Hebrew',width="15", pady="10",borderwidth=4,highlightthickness=4, command=lambda:search_hebrew_word(word_entry.get()))
 hebrew_search.configure(bg="purple")
 hebrew_search.pack()
 
-japanese_search = Button(window, text='Japanese',width="15", command=lambda:search_japanese_word(word_entry.get()))
+japanese_search = Button(window, text='Japanese',width="15", pady="10",borderwidth=4,highlightthickness=4, command=lambda:search_japanese_word(word_entry.get()))
 japanese_search.configure(bg="purple")
 japanese_search.pack()
 
-korean_search = Button(window, text='Korean',width="15", command=lambda:search_korean_word(word_entry.get()))
+korean_search = Button(window, text='Korean',width="15", pady="10",borderwidth=4,highlightthickness=4, command=lambda:search_korean_word(word_entry.get()))
 korean_search.configure(bg="purple")
 korean_search.pack()
 
-filipino_search = Button(window, text="Filipino",width="15", command=lambda:search_filipino_word(word_entry.get()))
+filipino_search = Button(window, text="Filipino",width="15",pady="10",borderwidth=4,highlightthickness=4, command=lambda:search_filipino_word(word_entry.get()))
 filipino_search.configure(bg="purple")
 filipino_search.pack()
 
