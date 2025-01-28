@@ -50,14 +50,13 @@ japanese_dictionary = {'you': 'Anata' ,
                        }
 
 
-
 def search_word(word):
     if word in japanese_dictionary:
+        result.set("Not found")
         result.set(japanese_dictionary[word])
         print(japanese_dictionary[word])
 
     else:
-        result.set("Not found")
         print("Not Found.")
 
 
@@ -66,14 +65,6 @@ def search_word(word):
 search_btn = Button(window, text='Search', command=lambda:search_word(entry.get()))
 search_btn.pack()
 window.mainloop()
-
-
-
-
-
-
-
-
 
 
 

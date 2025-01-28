@@ -24,36 +24,25 @@ French_dictionary = {'good morning': 'bonne matinée',
                      'thank you': 'merci'}
 
 def search_word():
-    """
-    Searches for the French translation of the entered English word and updates the result label.
-    """
-    word = word_entry.get().lower()  # Convert entered word to lowercase
-    translation = French_dictionary.get(word)  # Get translation using get() method
+    word = word_entry.get().lower()
+    translation = French_dictionary.get(word) 
 
     if translation:
-        result_label.config(text=f"{word}: {translation}")
+        result_label.config(text=f"{translation}")
     else:
-        result_label.config(text="Word not found, click the 'Show Available Words' button")
+        result_label.config(text="Word not found, TRY AGAIN!!!")
 
-def show_words():
-    """
-    Displays the words available in the dictionary.
-    """
-    words_listbox.delete(0, tk.END)  # Clear the listbox
-    for word in French_dictionary.keys():
-        words_listbox.insert(tk.END, word)
-
-# App begins
+# Dictionary begins
 root = tk.Tk()
 root.geometry("600x250")
 root.title("French Dictionary")
 
-# Entry space for user input
+# Entry space for the user's input
 word_entry = tk.Entry(root)
 word_entry.pack()
 
-# Search button
-search_button = tk.Button(root, text="Search", command=search_word)
+# The search button
+search_button = tk.Button(root, text="SEARCH", command=search_word)
 search_button.pack()
 
 # Label to display the result
