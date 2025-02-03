@@ -155,7 +155,7 @@ filipino_dictionary = {'go': 'pumunta ka',
                        'under': 'sa ilalim',
                        'during': 'habang',
                        'better': 'mas mabuti',
-                       'whore': 'ang',
+                       'war': 'ang',
                        'write': 'magsulat',
                        'upset': 'nagagalit',
                        'stay': 'manatili',
@@ -170,7 +170,8 @@ filipino_dictionary = {'go': 'pumunta ka',
                        'thank you': 'salamat po',
                        'good morning': 'magandang umaga',
                        'meet': 'makipagkita',
-                       'land': 'lupa', }
+                       'land': 'lupa', 
+                      'hello':'kumusta',}
 
 
 def search_japanese_word(word):
